@@ -21,16 +21,7 @@ The RGB camera can only capture the objects under normal light, while the event 
 
 - ### Comparison between EV-UAV and other event-based object detection datasets
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-lqch{border-color:inherit;color:#FE0000;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
+
 <table class="tg"><thead>
   <tr>
     <th class="tg-c3ow" rowspan="2">Dataset</th>
@@ -129,8 +120,6 @@ The RGB camera can only capture the objects under normal light, while the event 
     <td class="tg-0pky">2025</td>
   </tr>
 </tbody></table>
-
-
 Currently, event-based object detection datasets  primarily focus on autonomous driving and general object detection.  There is limited attention given to  datasets that are  exclusively designed for UAV detection. We provide a comprehensive summary of existing datasets, highlighting the scarcity of event-based datasets for UAV object detection.
 
 - ### Benchmark Features and Statistics
@@ -175,7 +164,7 @@ x    y   timestamp  polarity label id
 
 ## ⬇️ Dataset
 
-To access RGBT-Tiny dataset, please fill the following form: [EV-UAV Dataset](https://pan.baidu.com/s/1Gdmsr6mRkiPmxj6b2-fPGQ ), Code：ed9a
+To access EV-UAV dataset, please fill the following form: [EV-UAV Dataset]( )
 
 
 
@@ -185,7 +174,7 @@ To access RGBT-Tiny dataset, please fill the following form: [EV-UAV Dataset](ht
 
 Leveraging the spatiotemporal correlation characteristics of moving targets in event data, we propose EV-SpSegNet, a direct segmentation network for sparse event point clouds, and design a spatiotemporal correlation loss function that optimizes target event extraction by evaluating local spatiotemporal consistency.
 
-- ### Event based Sparse Segmentation Network
+### Event based Sparse Segmentation Network
 
 
 Event based Sparse Segmentation Network (EV-SpSegNet) employs a U-shaped encoder-decoder architecture, integrating three key components: the GDSCA module (Grouped Dilated Sparse Convolution) for multi-scale temporal feature extraction, the Sp-SE module for feature fusion, and the Patch Attention block for voxel downsampling and global context modeling.
