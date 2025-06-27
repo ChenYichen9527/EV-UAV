@@ -13,9 +13,10 @@ Small object detection (SOD) in anti-UAV  task is a challenging problem due to t
 
 ## 📊EV-UAV dataset
 - ### Comparison between event camera and RGB camera
-
+<p align="center">
 <img src="imgs\left_top.jpg"  width='500' />
-
+ </a>
+</p>
 The RGB camera can only capture the objects under normal light, while the event camera  can capture objects under various extreme lighting conditions. And the event camera can capture the continuous motion  trajectory of the small object (shown as the red curve).
 
 - ### Comparison between EV-UAV and other event-based object detection datasets
@@ -197,10 +198,14 @@ Event based Sparse Segmentation Network (EV-SpSegNet) employs a U-shaped encoder
 
 
 We introduce a spatiotemporal correlation loss that encourages the network to retain more events with high spatiotemporal correlation while discarding more isolated noise.
-
+<p align="center">
 <img src="imgs\stcloss1.png"  width='300' />
-
+ </a>
+</p>
+<p align="center">
 <img src="imgs\stcloss2.png"  width='300' />
+ </a>
+</p>
 
 # 🚀Installation
 
