@@ -196,7 +196,7 @@ We introduce a spatiotemporal correlation loss that encourages the network to re
 
 <img src="imgs\stcloss1.png" style="zoom: 67%;" />
 
-<img src="C:\Users\90597\Desktop\事件相机数据集论文\ICCV_github\imgs\stcloss2.png" style="zoom:67%;" />
+<img src="imgs\stcloss2.png" style="zoom: 67%;" />
 
 # 🚀Installation
 
