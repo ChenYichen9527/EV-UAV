@@ -1,6 +1,6 @@
 # 🚁 Event-based Tiny Object Detection: A Benchmark Dataset and Baseline
 
-<img src="C:\Users\90597\Desktop\事件相机数据集论文\ICCV_github\imgs\logo.png" style="zoom: 25%;" />
+<img src="imgs\logo.png" style="zoom: 50%;" />
 
 ## 🌟 Abstract
 Small object detection (SOD) in anti-UAV  task is a challenging problem due to the small size of UAVs and complex backgrounds. Traditional frame-based cameras struggle to detect small objects in complex environments due to their low frame rates, limited dynamic range, and data redundancy. Event cameras, with microsecond temporal resolution and high dynamic range, provide a more effective solution for SOD. However, existing event-based object detection datasets  are limited in scale, feature large targets size, and lack diverse backgrounds, making them unsuitable for SOD benchmarks. In this paper, we introduce a Event-based Small object detection (EVSOD) dataset (namely **EV-UAV**), the first large-scale, highly diverse benchmark for anti-UAV tasks. It includes 147 sequences with over **2.3 million event-level annotations,** featuring **extremely small targets** (averaging 6.8 × 5.4 pixels) and **diverse scenarios** such as urban clutter and extreme lighting conditions. Furthermore, based on the observation that small moving targets form continuous curves in spatiotemporal event point clouds, we propose Event based Sparse Segmentation Network (EV-SpSegNet), a novel baseline for event segmentation in point cloud space, along with a Spatiotemporal Correlation (STC) loss that leverages motion continuity to guide the network in retaining target events. Extensive experiments on the EV-UAV dataset demonstrate the superiority of our method and provide a benchmark for future research in EVSOD.
@@ -10,7 +10,7 @@ Small object detection (SOD) in anti-UAV  task is a challenging problem due to t
 ## 📊EV-UAV dataset
 - ### Comparison between event camera and RGB camera
 
-<img src="C:\Users\90597\Desktop\事件相机数据集论文\ICCV_github\imgs\left_top.jpg" style="zoom: 25%;" />
+<img src="imgs\left_top.jpg" style="zoom: 25%;" />
 
 The RGB camera can only capture the objects under normal light, while the event camera  can capture objects under various extreme lighting conditions. And the event camera can capture the continuous motion  trajectory of the small object (shown as the red curve).
 
@@ -129,8 +129,7 @@ The RGB camera can only capture the objects under normal light, while the event 
 Currently, event-based object detection datasets  primarily focus on autonomous driving and general object detection.  There is limited attention given to  datasets that are  exclusively designed for UAV detection. We provide a comprehensive summary of existing datasets, highlighting the scarcity of event-based datasets for UAV object detection.
 
 - ### Benchmark Features and Statistics
-
-<img src="C:\Users\90597\Desktop\事件相机数据集论文\ICCV_github\imgs\datasets.jpg" style="zoom: 25%;" />
+<img src="imgs\datasets.jpg" style="zoom: 25%;" />
 
 EV-UAV contains 147 event sequences with **event-level annotations**, covering **challenging scenarios** like high-brightness and low-light conditions, with **targets** **averaging 1/50 the size in existing datasets**.
 
@@ -186,7 +185,7 @@ Leveraging the spatiotemporal correlation characteristics of moving targets in e
 
 Event based Sparse Segmentation Network (EV-SpSegNet) employs a U-shaped encoder-decoder architecture, integrating three key components: the GDSCA module (Grouped Dilated Sparse Convolution) for multi-scale temporal feature extraction, the Sp-SE module for feature fusion, and the Patch Attention block for voxel downsampling and global context modeling.
 
-<img src="C:\Users\90597\Desktop\事件相机数据集论文\ICCV_github\imgs\framework.png" style="zoom: 67%;" />
+<img src="imgs\framework.png" style="zoom: 67%;" />
 
 
 
@@ -195,7 +194,7 @@ Event based Sparse Segmentation Network (EV-SpSegNet) employs a U-shaped encoder
 
 We introduce a spatiotemporal correlation loss that encourages the network to retain more events with high spatiotemporal correlation while discarding more isolated noise.
 
-<img src="C:\Users\90597\Desktop\事件相机数据集论文\ICCV_github\imgs\stcloss1.png" style="zoom: 67%;" />
+<img src="imgs\stcloss1.png" style="zoom: 67%;" />
 
 <img src="C:\Users\90597\Desktop\事件相机数据集论文\ICCV_github\imgs\stcloss2.png" style="zoom:67%;" />
 
@@ -246,9 +245,7 @@ test.py
 
 
 ---
-## Demo:
 
-放一些数据的可视化东西
 
 
 
@@ -259,30 +256,3 @@ test.py
 The code is based on [HAIS](https://github.com/hustvl/HAIS) and [spconv](https://github.com/traveller59/spconv). 
 
 ---
-## 📚 引用
-If you find this project useful in your research, please consider cite:
-```bibtex
-@article{yourpaper2023,
-  title={Event-Based Drone Object Detection Dataset},
-  author={Your Name, Co-author Name},
-  journal={Journal of Event-Based Vision},
-  year={2023},
-  volume={XX},
-  number={XX},
-  pages={XX--XX}
-}
-```
-
----
-
-## 📜 许可证
-![License Icon](https://via.placeholder.com/50) <!-- 替换为相关图标 -->
-本数据集采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证。你可以自由地：
-- **共享**：在任何媒介上复制和分发本数据集。
-- **改编**：修改和构建本数据集。
-
-但必须遵守以下条款：
-- **署名**：必须注明原始作者和来源。
-- **非商业性使用**：不得将本数据集用于商业目的。
-- **相同方式共享**：如果你修改了本数据集，必须以相同的许可证发布。
-
