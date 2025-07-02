@@ -7,7 +7,7 @@
 <img src="imgs\logo.png"  width='800' />
  </a>
 </p>
-The official implementation of "Event-based Tiny Object Detection: A Benchmark Dataset and Baseline" (ICCV 2025) [[Paper](https://arxiv.org/abs/2506.23575)]
+The official implementation of "Event-based Tiny Object Detection: A Benchmark Dataset and Baseline" (ICCV 2025) [Paper](https://arxiv.org/abs/2506.23575)
 
 
 ## 🌟 Abstract
