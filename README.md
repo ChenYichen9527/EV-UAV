@@ -169,7 +169,7 @@ x    y   timestamp  polarity label id
 
 ## ⬇️ Dataset
 
-The  EV-UAV dataset can be download from  [Baidu Netdisk]("https://pan.baidu.com/s/15pAlu3KP1uXych-c3SC5qA?pwd=sbr2") 提取码: sbr2 
+The  EV-UAV dataset can be download from  [Baidu Netdisk](https://pan.baidu.com/s/15pAlu3KP1uXych-c3SC5qA?pwd=sbr2) 提取码: sbr2 
 
 ---
 
@@ -214,7 +214,7 @@ conda activate evuav
 conda install pytorch==1.9.1 torchvision==0.10.1 torchaudio==0.9.1 cudatoolkit=11.3 -c pytorch -c conda-forge
 ```
 
-3) Install  [spconv](URL "https://github.com/traveller59/spconv")
+3) Install  [spconv](https://github.com/traveller59/spconv)
 
 4) Compile the external C++ and CUDA ops.
 
