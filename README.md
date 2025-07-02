@@ -225,7 +225,7 @@ python setup.py build_ext develop
 
 ## 🎯Running code
 
-**1) Configuration file**: change the dataset root and save root by yourself
+**1) Configuration file**: change the dataset root and the model save root by yourself
 
 ```python
 cd configs/evisseg_evuav.yaml
