@@ -140,8 +140,8 @@ The file structure of the dataset is as follows:
 ```
 EV-UAV/
 ├── test/          
-│   ├── dvSave-2024_05_07_03_29_39-00.npz    
-│   ├── dvSave-2024_05_20_09_02_58-00.npz
+│   ├── test_000.npz    
+│   ├── test_001.npz
 │   ├──.....
 ├── train          
 ├── val          
