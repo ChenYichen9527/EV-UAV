@@ -169,7 +169,7 @@ x    y   timestamp  polarity label id
 
 ## ⬇️ Dataset
 
-The  EV-UAV dataset can be download from  [Baidu Netdisk](https://pan.baidu.com/s/15pAlu3KP1uXych-c3SC5qA?pwd=sbr2) 提取码: sbr2 
+The  EV-UAV dataset can be download from  [Baidu Netdisk](https://pan.baidu.com/s/15pAlu3KP1uXych-c3SC5qA?pwd=sbr2) Extracted code: sbr2 
 
 ---
 
@@ -244,6 +244,8 @@ train.py
 test.py
 ```
 **4) Pre_trained weights**
+
+The pre_trained weights can be download  [here](https://pan.baidu.com/s/1e6a_Ool5WZ3cBMPvoJvWbg?pwd=ztp4). Extracted code:ztp4
 
 
 ---
