@@ -7,7 +7,8 @@
 <img src="imgs\logo.png"  width='800' />
  </a>
 </p>
-The official implementation of "Event-based Tiny Object Detection: A Benchmark Dataset and Baseline" (ICCV 2025) [Paper](URL "https://arxiv.org/abs/2506.23575")
+The official implementation of "Event-based Tiny Object Detection: A Benchmark Dataset and Baseline" (ICCV 2025) [[Paper](https://arxiv.org/abs/2506.23575)]
+
 
 ## 🌟 Abstract
 
@@ -214,7 +215,7 @@ conda activate evuav
 2) Install dependencies
 
 ```
-python -r requirement.txt
+conda install torch==1.9
 ```
 
 3) Install  [spconv](URL "https://github.com/traveller59/spconv")
