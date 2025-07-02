@@ -8,7 +8,7 @@
  </a>
 </p>
 The official implementation of "Event-based Tiny Object Detection: A Benchmark Dataset and Baseline" (ICCV 2025) [[Paper](https://arxiv.org/abs/2506.23575)]
-
+[Paper](https://ieeexplore.ieee.org/document/9350236)
 
 ## 🌟 Abstract
 
