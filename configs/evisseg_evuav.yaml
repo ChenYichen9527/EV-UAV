@@ -1,0 +1,35 @@
+STRUCTURE:
+  model_name: evissgnet
+  width: 12
+  block_residual: True
+  block_reps: 2
+  use_coords: True
+
+DATA:
+  input_channel: 4
+  root: /media/admin1/123/EV-UAV
+  whole_t: 8000 #ms
+  res: [346,260]
+
+TRAIN:
+  epochs: 50
+  batch_size: 1
+  train_workers: 8
+  optim: Adam # Adam or SGD
+  lr: 0.001
+  k: 3
+  t: 5
+  max_events_num : 700000
+  model_save_root:  /media/admin1/123/ev-spsegnet_github/log/model
+
+TEST:
+  vis: False
+  eval: True
+  roc: True  # Very time-consuming, do not open unless necessary
+  pd_detT: 50
+  correct_thresh: 0.0001
+  save: True
+  model_path: /media/admin1/123/ev-spsegnet_github/log/model/best_iou_seed37.pt
+
+
+
