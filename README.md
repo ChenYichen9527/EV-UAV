@@ -169,11 +169,7 @@ x    y   timestamp  polarity label id
 
 ## ⬇️ Dataset
 
-The  EV-UAV dataset can be download from  
-[Baidu Netdisk]("https://pan.baidu.com/s/15pAlu3KP1uXych-c3SC5qA?pwd=sbr2") 提取码: sbr2 
-
-
-
+The  EV-UAV dataset can be download from  [Baidu Netdisk]("https://pan.baidu.com/s/15pAlu3KP1uXych-c3SC5qA?pwd=sbr2") 提取码: sbr2 
 
 ---
 
