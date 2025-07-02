@@ -7,7 +7,7 @@
 <img src="imgs\logo.png"  width='800' />
  </a>
 </p>
-The official implementation of "Event-based Tiny Object Detection: A Benchmark Dataset and Baseline" (ICCV 2025) [Paper](https://arxiv.org/abs/2506.23575)
+The official implementation of "Event-based Tiny Object Detection: A Benchmark Dataset and Baseline" (ICCV 2025) [Paper](URL "https://arxiv.org/abs/2506.23575")
 
 ## 🌟 Abstract
 
@@ -168,9 +168,9 @@ x    y   timestamp  polarity label id
 
 ## ⬇️ Dataset
 
-The  EV-UAV dataset can be download from  [Baidu Netdisk](通过网盘分享的文件：EV-UAV.zip
-链接: https://pan.baidu.com/s/13RMe3xZodUOphTiE1qR1Cw?pwd=gix3 提取码: gix3 
---来自百度网盘超级会员v1的分享 ) or [Google Drive]() .
+The  EV-UAV dataset can be download from  [Baidu Netdisk](
+URL "https://pan.baidu.com/s/13RMe3xZodUOphTiE1qR1Cw?pwd=gix3") 提取码: gix3 
+
 
 
 
