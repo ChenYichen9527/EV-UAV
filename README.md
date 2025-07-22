@@ -171,7 +171,7 @@ x    y   timestamp  polarity label id
 
 
 
-**'evs_norm'**  is normalized event data.
+**'evs_norm'**  is the normalized event data.
 
 Example:
 ```
