@@ -151,20 +151,48 @@ EV-UAV/
 
 ## 📝 Data Format
 
-Event data is stored in `.npz` format，with each row containing the following information：
+Event data is stored in `.npz` format, it contains three files (i.e., 'evs_norm', 'ev_loc' and 'ev').
 
-- **x, y** Pixel coordinates of the event.
+**'ev'** is the raw event data.
+
+- **x, y:** Pixel coordinates of the event.
 - **timestamp:** Time of event occurrence (microseconds).
 - **polarity:** Polarity of brightness change (+1 or -1).
 - **label:** Indicates if it's the target (0 or 1).
 - **id:** Identity of the target .
 
 Example:
+
 ```
 x    y   timestamp  polarity label id
-100 200  12345678     1        0    0 
-128 258  12345863    -1        1    5
+100 200  1            1        0    0 
+128 258  4000        -1        1    5
 ```
+
+
+
+**'evs_norm'**  is normalized event data.
+
+Example:
+```
+x        y   timestamp  polarity label id
+0.289 0.769  0            1        0    0 
+0.369 0.992  0.5         -1        1    5
+```
+
+
+
+**'ev_loc'** is the coordinate of the event in point cloud space.
+
+Example:
+```
+x    y   timestamp  
+100 200  1           
+128 258  4000      
+```
+
+
+
 
 ## ⬇️ Dataset
 
