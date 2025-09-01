@@ -225,9 +225,10 @@ We introduce a spatiotemporal correlation loss that encourages the network to re
 <img src="imgs\stcloss2.png"  width='300' />
  </a>
 </p>
+
 # 🚀Installation for docker
 
-Please refer to docker_for_evuav
+Please refer to [docker_for_evuav](https://github.com/ChenYichen9527/EV-UAV/blob/main/docker_for_evuav.md)
 
 
 
