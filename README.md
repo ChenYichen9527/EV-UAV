@@ -156,7 +156,7 @@ Event data is stored in `.npz` format, it contains three files (i.e., 'evs_norm'
 **'ev'** is the raw event data.
 
 - **x, y:** Pixel coordinates of the event.
-- **timestamp:** Time of event occurrence (microseconds).
+- **timestamp:** Time of event occurrence (millisecond).
 - **polarity:** Polarity of brightness change (+1 or -1).
 - **label:** Indicates if it's the target (0 or 1).
 - **id:** Identity of the target .
