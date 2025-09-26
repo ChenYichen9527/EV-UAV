@@ -157,7 +157,7 @@ Event data is stored in `.npz` format, it contains three files (i.e., 'evs_norm'
 
 - **x, y:** Pixel coordinates of the event.
 - **t:** Timestampof event occurrence (millisecond).
-- **p:** Polarity of brightness change (+1 or -1).
+- **p:** Polarity of brightness change (1 or 0).
 - **label:** Indicates if it's the target (0 or 1).
 - **name:** Identity of the target .
 
