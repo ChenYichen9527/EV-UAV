@@ -156,17 +156,17 @@ Event data is stored in `.npz` format, it contains three files (i.e., 'evs_norm'
 **'ev'** is the raw event data.
 
 - **x, y:** Pixel coordinates of the event.
-- **timestamp:** Time of event occurrence (millisecond).
-- **polarity:** Polarity of brightness change (+1 or -1).
+- **t:** Timestampof event occurrence (millisecond).
+- **p:** Polarity of brightness change (+1 or -1).
 - **label:** Indicates if it's the target (0 or 1).
-- **id:** Identity of the target .
+- **name:** Identity of the target .
 
 Example:
 
 ```
-x    y   timestamp  polarity label id
+x    y   t  p label name
 100 200  1            1        0    0 
-128 258  4000        -1        1    5
+128 258  4000        0        1    5
 ```
 
 
@@ -175,9 +175,9 @@ x    y   timestamp  polarity label id
 
 Example:
 ```
-x        y   timestamp  polarity label id
+x    y   t  p label name
 0.289 0.769  0            1        0    0 
-0.369 0.992  0.5         -1        1    5
+0.369 0.992  0.5         0        1    5
 ```
 
 
@@ -186,7 +186,7 @@ x        y   timestamp  polarity label id
 
 Example:
 ```
-x    y   timestamp  
+x    y   t  
 100 200  1           
 128 258  4000      
 ```
@@ -196,7 +196,7 @@ x    y   timestamp
 
 ## ⬇️ Dataset
 
-The  EV-UAV dataset can be download from  [Baidu Netdisk](https://pan.baidu.com/s/15pAlu3KP1uXych-c3SC5qA?pwd=sbr2). Extracted code: sbr2 
+The  EV-UAV dataset can be download from  [Baidu Netdisk](https://pan.baidu.com/s/15pAlu3KP1uXych-c3SC5qA?pwd=sbr2). Extracted code: sbr2.  [Google Drive](https://drive.google.com/drive/folders/1VIkBFx5Po0KPIFBYOL_appLVie5wgdyi?usp=drive_link)
 
 ---
 
@@ -278,7 +278,7 @@ test.py
 ```
 **4) Pre_trained weights**
 
-The pre_trained weights can be download  [here](https://pan.baidu.com/s/1e6a_Ool5WZ3cBMPvoJvWbg?pwd=ztp4). Extracted code:ztp4
+The pre_trained weights can be download  [here](https://pan.baidu.com/s/1e6a_Ool5WZ3cBMPvoJvWbg?pwd=ztp4). Extracted code:ztp4.   [Google Drive](https://drive.google.com/file/d/1nNZsckiN0qp2oo1uX40tU6oz3mUcrSHq/view?usp=drive_link)
 
 
 ---
