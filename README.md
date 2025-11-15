@@ -298,7 +298,13 @@ If you use this work in your research, please cite it:
       url={https://arxiv.org/abs/2506.23575}, 
 }
 ```
----
+## ⚖️ License
+
+This project is released under the **Apache 2.0 License**.
+However, **commercial use and modification without permission are strictly prohibited**.
+
+If you reference or build upon this work, please acknowledge our paper as above.
+
 ## Acknowledgement
 
 The code is based on [HAIS](https://github.com/hustvl/HAIS) and [spconv](https://github.com/traveller59/spconv). 
